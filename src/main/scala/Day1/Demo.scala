@@ -5,6 +5,17 @@ import scala.language.postfixOps
 object Demo {
 
   def main(args: Array[String]) : Unit = {
+    val person = new Person("Thomas", "Belem");
+    val z = {val a= 5; a + 3}
+     val b = 6;
+
+    def upper (Strings: String* ) = Strings.map(_.toUpperCase())
+
+    println("one","two")
+    print(z);
+    println("-" *100);
+
+
     val p = new Employee("Emmanuel", "Tweneboah", flag = true, 78);
     p.age_(45)
     println(p.fname)

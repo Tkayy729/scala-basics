@@ -7,7 +7,8 @@ class Employee(val fname: String, val lname:String, flag: Boolean, var a: Int) {
   def age = a;
 
   def age_(newAge: Int) = if(newAge >0 && newAge < 50) a = newAge
-// look into default parameters
+
+  // look into default parameters
 
   def isOlder(otherAge : Integer): Boolean = a > otherAge
   def +(newAge: Int) = a+ newAge //infix notation: methods that takes one parameter
