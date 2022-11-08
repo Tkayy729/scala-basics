@@ -13,16 +13,12 @@ object LibraryApp {
 
     for(i <- members){
         i match {
-          case i: Regular => println(s"${i.firstName} can borrow 10 books")
-          case i: Senior => println(s"${i.firstName} can borrow unlimited books")
-          case i: Junior => println(s"${i.firstName} can borrow 5 books")
+          case i: Regular => println(s"${i.firstName} can borrow ${i.maxNumofItemstoBorrow} books")
+          case i: Senior => println(s"${i.firstName} can borrow ${i.maxNumofItemstoBorrow} books")
+          case i: Junior => println(s"${i.firstName} can borrow ${i.maxNumofItemstoBorrow} books")
         }
       }
     }
-
-
-
-
 
 
 }

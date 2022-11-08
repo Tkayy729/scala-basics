@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a5a14b-297b-41ef-8e1b-90b8ade01ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day2/Category.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day2/Junior.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day2/Library.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day2/LibraryApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day2/Member.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day2/Regular.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day2/ScalaWorkSheet.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day2/Senior.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day1/Demo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day1/Demo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day1/intro/Tutorial.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day1/intro/Tutorial.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day2/Junior.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day2/Junior.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day2/LibraryApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day2/LibraryApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day2/Regular.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day2/Regular.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day2/Senior.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day2/Senior.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
