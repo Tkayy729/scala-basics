@@ -6,6 +6,7 @@ object Demo {
 
   def main(args: Array[String]) : Unit = {
     val person = new Person("Thomas", "Belem");
+
     val z = {val a= 5; a + 3}
      val b = 6;
 
