@@ -2,9 +2,13 @@ package Day3
 
 object Intro {
   def main (args: Array[String]): Unit ={
-    println(sumUntil(5))
-    println(add3(6))
-    println(nTimes(3,3,cal))
+//    println(sumUntil(5))
+//    println(add3(6))
+//    println(nTimes(3,3,cal))
+
+
+
+
   }
   def sumUntil(n: Int): Int = {
     if (n <= 0) 0
@@ -29,5 +33,6 @@ object Intro {
     println("cool stuff")
     x+1
   }
+
 
 }

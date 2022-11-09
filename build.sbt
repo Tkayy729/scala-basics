@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-basics"
   )
+libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test
+// Use %%% for non-JVM projects.

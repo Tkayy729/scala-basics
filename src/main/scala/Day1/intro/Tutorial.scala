@@ -5,6 +5,7 @@ import java.text.DateFormat
 object Tutorial {
 
   def main(args: Array[String]): Unit = {
+    convertCelciusToFahrenheit(50.5)
     print("---------Scala tutorials-----------\n")
     //println(convertCelciusToFahrenheit(50.85))
     covertDateToNiceForm("02/125/19")
