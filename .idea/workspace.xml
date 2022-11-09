@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a5a14b-297b-41ef-8e1b-90b8ade01ea4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day3/Intro.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day3/Lab1.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day2/Junior.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day2/Junior.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day2/LibraryApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day2/LibraryApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day2/Regular.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day2/Regular.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day2/Senior.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day2/Senior.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +54,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LibraryApp">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Day1.intro.Demo" />
+  <component name="RunManager" selected="Application.Lab1">
+    <configuration name="Intro" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.Intro" />
       <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day1.intro.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Day1.HelloWorld" />
+    <configuration name="Lab1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.Lab1" />
       <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day1.intro.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab1" />
+        <item itemvalue="Application.Intro" />
         <item itemvalue="Application.LibraryApp" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Tutorial" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
