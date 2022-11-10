@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a5a14b-297b-41ef-8e1b-90b8ade01ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day4/thursday.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day4/Functional_Collections.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day3/Recursive.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day3/Recursive.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/Day3/RecursiveTest1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Day3/RecursiveTest1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day4/thursday.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day4/thursday.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,20 @@
       <recent name="Day3" />
     </key>
   </component>
-  <component name="RunManager" selected="MUnit.RecursiveTest1.testTocheckPrimeNumber">
+  <component name="RunManager" selected="Application.Functional_Collections">
+    <configuration name="Functional_Collections" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day4.Functional_Collections" />
+      <module name="scala-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Intro" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Day3.Intro" />
       <module name="scala-basics" />
@@ -100,22 +112,6 @@
       <option name="PACKAGE_NAME" value="Day3" />
       <option name="MAIN_CLASS_NAME" value="Day3.RecursiveTest" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursiveTest.testToEnsureSumIsZeroWhenThereIsNoNumberBetweenInputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="scala-basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day3" />
-      <option name="MAIN_CLASS_NAME" value="Day3.RecursiveTest" />
-      <option name="METHOD_NAME" value="testToEnsureSumIsZeroWhenThereIsNoNumberBetweenInputs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Functional_Collections" />
         <item itemvalue="MUnit.RecursiveTest1.testTocheckPrimeNumber" />
         <item itemvalue="Application.Intro" />
         <item itemvalue="MUnit.RecursiveTest1.test" />
         <item itemvalue="JUnit.RecursiveTest.test" />
-        <item itemvalue="JUnit.RecursiveTest.testToEnsureSumIsZeroWhenThereIsNoNumberBetweenInputs" />
       </list>
     </recent_temporary>
   </component>
