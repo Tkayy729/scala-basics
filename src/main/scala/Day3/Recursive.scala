@@ -50,7 +50,23 @@ class Recursive {
       else 1 + lengthOfString(str.dropRight(1))
    }
 
+   // return true if its a prime number
+
+
+
+   def isPrime (n: Int) : Boolean = {
+
+      def _isPrime(n: Int, acc: Int) : Boolean ={
+         if (acc == n) true
+         else if(n % acc ==0 ) false
+         else _isPrime(n, acc +1)
+      }
+      _isPrime(n,2)
+
+   }
+
 }
+
 
 // word
 // 1 +  lengthOfString(str.dropRight(1))
