@@ -31,7 +31,6 @@ class Recursive {
          else concateNtimes(string,n-1,acc+string)
       }
       concateNtimes(string,n,string)
-
    }
 
    def fib(n: BigInt): BigInt = {

@@ -1,3 +1,5 @@
+import scala.collection.mutable
+
 //
 //val ingredients = ("sugar", 5)
 //println(ingredients._1)
@@ -62,9 +64,73 @@
 //val paper = List("a1","a4")
 //
 //print(fruits:+paper)
-
-val files = (new java.io.File(".")).listFiles
-for (file <- files ) println(file.getName])
-//val file_names_excluding_hidden = file_names
+//
+//val files = (new java.io.File(".")).listFiles
+//for (file <- files ) println(file.getName])
+////val file_names_excluding_hidden = file_names
 //  .filter(fileName => fileName.getName.startsWith("."))
 //  .map(fileName => fileName.getPath.toList)
+object Imp {
+  def main(args: Array[String]) = {
+    // val x: Int = "Martina"
+    // print(x)
+    def add(x: Int)(implicit y: Int) = x + y
+
+    implicit var t00: Int = 5
+
+    println(add(7))
+  }
+}
+ // implicit def stringToInt(s: String): Int = s.length
+
+
+
+
+val constants = mutable.Stack[String]
+
+
+
+
+
+
+
+
+//val capaitals = Map(("Ghana"-> "Accra"),("France"->"Paris"))
+//
+//val capital = (c: String) => capaitals.get(c) match {
+//  case Some(s) => s
+//  case None => "Unkown"
+//}
+//
+//capital("Paris")
+//
+//
+//val i : Either[Exception, String] = try {
+//  Right("123".Int)
+//}
+//catch{
+//  case e : Exception => Left(e)
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

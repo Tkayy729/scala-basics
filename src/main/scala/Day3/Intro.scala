@@ -1,11 +1,25 @@
 package Day3
 
+import scala.collection.mutable
+import scala.collection.mutable.ListBuffer
+
 object Intro {
   def main (args: Array[String]): Unit ={
 //    println(sumUntil(5))
 //    println(add3(6))
 //    println(nTimes(3,3,cal))
 
+    val constants = mutable.Stack[String]("A","B","B")
+    val playerlist = ListBuffer[String]()
+    def removeandadd(): Unit ={
+      val remov = constants.pop()
+      playerlist.addOne(emov).
+    }
+
+
+    removeandadd()
+
+    playerlist.map(l => println(l))
 
 
 

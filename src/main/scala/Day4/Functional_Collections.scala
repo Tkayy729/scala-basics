@@ -11,13 +11,26 @@ object Functional_Collections extends App{
         println(file.toString().drop(2))
       }
     })
-
   println("_" *100)
+  val removePAth = files
+    .map(file => file.toString().drop(2))
 
-  val _move =
+    val _files = removePAth
+    .map(file => if (file.toString().contains(".")) println(file))
 
+  println("=" *100)
 
-//  file_names_excluding_hidden.map(file => println(file))
+  val _folders = removePAth
+    .map(file => if (! file.toString().contains(".")) println(file))
+
+  println("::" *100)
+  val pair = files
+    .map(file => Map((file.getName,file.length())))
+    .map(pair => println(pair))
+
+  println("::" *100)
+
+//  val `4LargestFiles` = files.map()
 
 
 
